@@ -24,3 +24,6 @@ jobs:
         cd proj-conversao-temperatura/src;
         npm install -g mocha;
         npm install;
+
+    - name: Execução do teste
+      run: mocha proj-conversao-temperatura/src/test/convert.js;
