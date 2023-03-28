@@ -41,5 +41,5 @@ jobs:
         file: proj-conversao-temperatura/src/Dockerfile
         push: true
         tags: |
-          carolahn/proj-conversao-temperatura:v1
+          carolahn/proj-conversao-temperatura:${{github.run_number}}
           carolahn/proj-conversao-temperatura:latest
